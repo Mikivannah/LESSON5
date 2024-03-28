@@ -1,12 +1,3 @@
-class Task:
-    def __init__(self, description, deadline):
-        self.description = description
-        self.deadline = deadline
-        self.status = "Not done"
-
-    def mark_as_done(self):
-        self.status = "Done"
-
 class Store:
     def __init__(self, name, address):
         self.name = name
